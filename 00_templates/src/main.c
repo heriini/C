@@ -1,14 +1,15 @@
 #include <stdio.h>
-#include "../inc/luas_bangun_datar.h"
+#include <string.h>
+#include "../inc/rumus.h"
+#include "../inc/hitung_luas.h"
 
 
 int main(){
     
-    int s;
-    printf("masukan nilai sisi : ");
-    scanf("%d", &s);
-    printf("Luas persegi = %d\n", luasPersegi(s));
-    return 0;
+    title();
+    hitung();
+    return main();
 }
+
 
 
