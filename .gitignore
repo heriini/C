@@ -1,16 +1,16 @@
-# Object files
-*.o
+# Abaikan folder build dari subfolder
+01_simple_calculator/bin/
+01_simple_calculator/obj/
 
-# Output binary
+# Abaikan semua file object dan executable
+*.o
 *.out
 *.exe
 
-# Build folders
-bin/
-obj/
+# VSCode
+.vscode/
 
-# Editor & OS-specific files
+# File OS/editor
 *.log
 *.swp
 .DS_Store
-.vscode/
