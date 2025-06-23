@@ -1,1 +1,16 @@
+# Object files
+*.o
+
+# Output binary
+*.out
+*.exe
+
+# Build folders
+bin/
+obj/
+
+# Editor & OS-specific files
+*.log
+*.swp
+.DS_Store
 .vscode/
